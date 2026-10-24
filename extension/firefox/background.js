@@ -98,6 +98,7 @@ function describeFailure(resp) {
   const code = resp && resp.code;
   const raw = (resp && resp.error) || '';
   if (code === 'NOT_RUNNING') return { state: 'not-running', message: 'SwiftDownload is not running. Start it, then click Reconnect.' };
+  if (code === 'UPDATE_REQUIRED') return { state: 'update-required', message: 'SwiftDownload is installing a required update. Downloads stay in the browser until it is done.' };
   if (code === 'NOT_INSTALLED' || code === 'NO_HOST' || /not found|forbidden|not allowed|native messaging host/i.test(raw))
     return { state: 'not-installed', message: 'SwiftDownload is not connected to this browser. Open SwiftDownload → Options → Browser and click Register, then click Reconnect.' };
   return { state: 'error', message: `SwiftDownload could not be reached: ${raw || 'unknown error'}` };

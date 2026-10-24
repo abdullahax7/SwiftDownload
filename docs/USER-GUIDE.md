@@ -209,7 +209,8 @@ SwiftDownload updates itself from this GitHub repository (version 1.2.0 and newe
 - It checks at startup and every 6 hours.
 - When a new version is published, a window shows the new version and its notes. The update downloads, is **verified with the release signature** (an update that was tampered with is rejected), and installs by itself after a short countdown. You can also click **Restart and update now**.
 - Downloads that are running pause and **continue after the restart**.
-- If the update can't be downloaded (for example, no internet), you can choose **Continue for now**; it is tried again later.
+- **Updates are required.** Until the new version is installed, SwiftDownload can't be used: running downloads stay paused, new ones are refused (downloads from the browser stay in the browser), and this stays so after a restart or without internet.
+- If the update can't be downloaded (for example, no internet), it is retried every minute. You can also click **Download from GitHub** and install the new version yourself.
 
 ![Update required](screenshots/update-required.png)
 

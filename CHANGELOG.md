@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1
+
+- Updates are now required: SwiftDownload can't be used until a new version is installed (no skipping, also after a restart or offline).
+- While an update is pending, downloads pause and new ones are refused; downloads from the browser stay in the browser.
+- If the update can't be downloaded it is retried every minute, with a link to download it from GitHub.
+
 ## 1.2.0
 
 - Automatic updates: SwiftDownload now updates itself from GitHub (signed and verified).
