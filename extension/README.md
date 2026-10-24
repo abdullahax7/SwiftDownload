@@ -14,3 +14,5 @@ The extension needs the **SwiftDownload desktop app** (see the [main README](../
 Permissions, settings and troubleshooting: [docs/browser-integration.md](../docs/browser-integration.md).
 
 Created with ❤️ by [Webxoo.com](https://webxoo.com)
+
+Bugs, help or updates: [contact@webxoo.com](mailto:contact@webxoo.com)

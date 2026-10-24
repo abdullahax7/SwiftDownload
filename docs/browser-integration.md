@@ -154,7 +154,7 @@ adapters.
 | Download goes to the browser instead | SwiftDownload was not reachable; the browser keeps the download so nothing is lost. |
 | Extension updated but old behaviour | Reload it on the browser's extensions page. |
 
-Logs: SwiftDownload → Options → About → *Open logs* (URLs and headers are redacted).
+Logs: SwiftDownload → Options → Storage → Logs → *Open*. To report a problem, use **Options → Storage → Diagnostic report → Export…** (passwords, cookies, sign-in headers and link details are removed) and email it to [contact@webxoo.com](mailto:contact@webxoo.com).
 
 ## Message protocol (developers)
 
@@ -173,3 +173,5 @@ Errors carry `code`: `NOT_RUNNING`, `NOT_INSTALLED`, `INVALID`.
 ---
 
 Created with ❤️ by [Webxoo.com](https://webxoo.com)
+
+Bugs, help or updates: [contact@webxoo.com](mailto:contact@webxoo.com)

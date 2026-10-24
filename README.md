@@ -125,6 +125,18 @@ Details: [docs/browser-integration.md](docs/browser-integration.md), covering pe
 | *Needs FFmpeg* | Install FFmpeg (see above), or choose a quality that includes audio. |
 | A stream fails with *refused access* or *no longer available* | Its link expired: reload the page and download again. |
 | The download went to the browser instead | SwiftDownload wasn't reachable, so the browser kept the download and nothing is lost. |
+| Still stuck? | Email [contact@webxoo.com](mailto:contact@webxoo.com) with the details listed under [Support and contact](#support-and-contact). |
+
+## Support and contact
+
+Found a bug, need help, or want a new feature or an update? Email **[contact@webxoo.com](mailto:contact@webxoo.com)**.
+
+When reporting a bug, please include:
+- your SwiftDownload version (Options → About) and Windows version;
+- your browser and its version;
+- what you did, what you expected and what happened;
+- the page or link (if you can share it) and any error message;
+- a diagnostic report, if possible: **Options → Storage → Diagnostic report → Export…**. Passwords, cookies, sign-in headers and link details are removed automatically.
 
 ## What's new in 1.1.0
 See [CHANGELOG.md](CHANGELOG.md).
@@ -133,6 +145,6 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 <div align="center">
 
-**Created with ❤️ by [Webxoo.com](https://webxoo.com)**
+**Created with ❤️ by [Webxoo.com](https://webxoo.com)** · Bugs, help and updates: [contact@webxoo.com](mailto:contact@webxoo.com)
 
 </div>
