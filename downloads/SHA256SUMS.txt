@@ -1,2 +1,2 @@
-a72005c6641788e473e7013ddebad8909dd0175a4f71f9468e2e08c76dc8da66 *SwiftDownload_1.2.1_x64-setup.exe
-c5e8d88c8978e75e3c528450084d273f6c9a3fea12ab15d76726fe45f7ff8435 *SwiftDownload-1.2.1-portable.zip
+4b8c1dfefb1120376865a5e9e662a1d3e8a21fa899192bde6fa2ff8cf4f66a3a *SwiftDownload_1.2.2_x64-setup.exe
+f9d12a47813299817e1bc88fc41aa6d3d2ad0f9a99859b6eb3c3a598770535d8 *SwiftDownload-1.2.2-portable.zip

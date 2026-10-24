@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.2
+
+- Downloads started from the Media page now open the download list, selected and scrolled into view, so you can see their progress.
+- New downloads that arrive while the Media page is open are shown the same way.
+
 ## 1.2.1
 
 - Updates are now required: SwiftDownload can't be used until a new version is installed (no skipping, also after a restart or offline).

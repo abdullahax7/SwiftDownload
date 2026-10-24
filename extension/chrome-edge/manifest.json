@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SwiftDownload",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Downloads files, media, HLS/DASH streams and magnet links with the SwiftDownload desktop download manager.",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvY9zY0fEPmoGj6ekg1C/X/5MXxRLT0IiWeIuz59XSd0Buo5K7ROwj5W77kE7PewrF4jMCLla+z9HsViv5iYUO8FZ2gMtrGnipKSitnu2Kms5JsnXATJaNarChF3j9D/0GT7mWfnI44AYlK8IQE/NQTfe5xvFFtV14xjQhrlhokLvi+pRPnDnDAIKnbWyDVWytdFZ/qlqvbHBOA0dvKu+Xg1I1XtRTcWy2ad6aY0SU7wu/rR/hHExUQiXU4BxhGqaJQDjgQH59Pqzo6DuuFoZoCAPEXN8LuRSO0ivb7nJWXlfjudgdIXX4Sy+Bhk5LQpwSZq0SpxDXBQTOvN17PooRwIDAQAB",
   "minimum_chrome_version": "115",

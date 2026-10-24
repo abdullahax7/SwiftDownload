@@ -1,12 +1,12 @@
 {
-  "version": "1.2.1",
-  "notes": "Updates are now required: SwiftDownload can't be used until a new version is installed (no skipping, also after a restart or offline).\nWhile an update is pending, downloads pause and new ones are refused; downloads from the browser stay in the browser.\nIf the update can't be downloaded it is retried every minute, with a link to download it from GitHub.",
-  "pub_date": "2026-10-24T18:33:18Z",
+  "version": "1.2.2",
+  "notes": "Downloads started from the Media page now open the download list, selected and scrolled into view, so you can see their progress.\nNew downloads that arrive while the Media page is open are shown the same way.",
+  "pub_date": "2026-10-24T18:52:50Z",
   "mandatory": true,
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWEFFOWRHRWdtRStBSjF4dEcxOW5acjBGdCtYNzFuclNWWUdHdXBCVUhEVGxzNjA0eE5CckV2Wi9jQnQ3Z0hhazg3bjl5Rm9UNDZFanhsT3lzcDd5Z04rUEc1b3BwRncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY2NjczCWZpbGU6U3dpZnREb3dubG9hZF8xLjIuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjEKWUJnYXRQeWhvT3E4dGJqSlViSzg0RjRDYkR5TUlUNmR1MUpZdDF4L3BiMVBHbHQ4TG11bi9pbm1BbS9FUnRlZjdWNzVoczZXT3hBTUhTSGJhVVlmQmc9PQo=",
-      "url": "https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWEFFOWRHRWdtRXhaVUsvbW81aGIvSzA1QmlmcWdzU256aHVkOWtrY3RaYWNuMGx4M3EwK21IMVNKb3pkQkNFMElkVUh6M3FUc1N6M1R1RG5weVVNYldlVFJ5N0dEVGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY3NzE2CWZpbGU6U3dpZnREb3dubG9hZF8xLjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjIKeFBFWWd2ZFJVWmR5L1haTjdHRm5Ha0hBWFJTUHl3dk5xVjAxbU9yY2h4L0NmVjdTTW5kSkJNT1hQU0VIVkFxUU4vZGZQVXo5cXA1a1FORnlSQmoxRHc9PQo=",
+      "url": "https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.2_x64-setup.exe"
     }
   }
 }
