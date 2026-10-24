@@ -4,8 +4,8 @@
 
 **A fast, segmented, resumable download manager for Windows, with a browser extension that finds the videos, audio and files on the pages you visit.**
 
-[![Download installer](https://img.shields.io/badge/Download-Windows%20installer-2563eb?style=for-the-badge&logo=windows)](downloads/SwiftDownload_1.1.0_x64-setup.exe)
-[![Portable](https://img.shields.io/badge/Portable-zip-475569?style=for-the-badge)](downloads/SwiftDownload-1.1.0-portable.zip)
+[![Download installer](https://img.shields.io/badge/Download-Windows%20installer-2563eb?style=for-the-badge&logo=windows)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.1.0_x64-setup.exe)
+[![Portable](https://img.shields.io/badge/Portable-zip-475569?style=for-the-badge)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.1.0-portable.zip)
 [![Extension](https://img.shields.io/badge/Extension-Chrome%20%7C%20Edge%20%7C%20Brave%20%7C%20Firefox-16a34a?style=for-the-badge)](extension)
 
 Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](https://webxoo.com)
@@ -47,8 +47,8 @@ Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 
 | File | What it is | SHA-256 |
 | --- | --- | --- |
-| [`SwiftDownload_1.1.0_x64-setup.exe`](downloads/SwiftDownload_1.1.0_x64-setup.exe) | Installer (per user, no admin rights needed) | `37f8906b88637cf2d3d7745e808bc48733fdb7bc7d3565074a65ee5caca99079` |
-| [`SwiftDownload-1.1.0-portable.zip`](downloads/SwiftDownload-1.1.0-portable.zip) | Portable version: unzip and run | `7a087c7e976f4810373e8d9a71748de2a219053c4f37cc43db3e7f804991068e` |
+| [`SwiftDownload_1.1.0_x64-setup.exe`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.1.0_x64-setup.exe) | Installer (per user, no admin rights needed) | `37f8906b88637cf2d3d7745e808bc48733fdb7bc7d3565074a65ee5caca99079` |
+| [`SwiftDownload-1.1.0-portable.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.1.0-portable.zip) | Portable version: unzip and run | `7a087c7e976f4810373e8d9a71748de2a219053c4f37cc43db3e7f804991068e` |
 | [`extension/`](extension) | Browser extension (also included in both downloads) | |
 
 > The program isn't code-signed yet, so Windows SmartScreen may show "Windows protected your PC". Click **More info → Run anyway**. You can check the SHA-256 values above with `Get-FileHash <file>` in PowerShell.
