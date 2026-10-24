@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SwiftDownload options</title>
+    <link rel="stylesheet" href="ui.css" />
+  </head>
+  <body class="options">
+    <h1>SwiftDownload</h1>
+    <div class="actions">
+      <button id="test" class="secondary">Test connection</button>
+      <span id="result" class="muted"></span>
+    </div>
+
+    <h2>Browser downloads</h2>
+    <label class="row"><input type="checkbox" id="intercept" /> Download with SwiftDownload instead of the browser</label>
+    <label class="row"><input type="checkbox" id="magnets" /> Open magnet links in SwiftDownload</label>
+    <label class="row"><input type="checkbox" id="captureAll" /> Take over every download (all file types)</label>
+    <label class="block">Otherwise only these file types (extensions separated by spaces)
+      <textarea id="extensions" rows="4"></textarea>
+    </label>
+    <label class="block">Only take over files larger than (MB, 0 = any size)
+      <input type="number" id="minSizeMB" min="0" step="1" />
+    </label>
+    <label class="row"><input type="checkbox" id="sendCookies" /> Send the site's cookies with downloads (needed for downloads that require you to be signed in)</label>
+    <p class="muted small">Cookies are sent only to SwiftDownload on this computer, only for the address being downloaded, and SwiftDownload never sends them to other servers.</p>
+
+    <h2>Media detection</h2>
+    <label class="row"><input type="checkbox" id="detect" /> Detect downloadable media and files on web pages</label>
+    <div class="block">Detect these types
+      <div class="types">
+        <label class="row"><input type="checkbox" data-type="video" /> Video and streams</label>
+        <label class="row"><input type="checkbox" data-type="audio" /> Audio</label>
+        <label class="row"><input type="checkbox" data-type="image" /> Images</label>
+        <label class="row"><input type="checkbox" data-type="document" /> Documents</label>
+        <label class="row"><input type="checkbox" data-type="archive" /> Archives</label>
+        <label class="row"><input type="checkbox" data-type="other" /> Programs, fonts and other files</label>
+      </div>
+    </div>
+    <label class="row"><input type="checkbox" id="floatingButton" /> Show a download button on video and audio players</label>
+    <label class="row"><input type="checkbox" id="imageIndicator" /> Show a download button when pointing at large images</label>
+    <label class="row"><input type="checkbox" id="reportToApp" /> List detected media in SwiftDownload's Media detector</label>
+    <label class="block">Never detect media or take over downloads on these sites (one per line, e.g. example.com)
+      <textarea id="excludedSites" rows="4" placeholder="example.com"></textarea>
+    </label>
+    <div id="access" class="notice" hidden>
+      SwiftDownload needs access to websites to detect media. <button id="grant" type="button">Allow access to websites</button>
+    </div>
+
+    <div class="actions">
+      <button id="save">Save</button>
+      <button id="reset" class="secondary">Default file types</button>
+      <span id="saved" class="muted"></span>
+    </div>
+    <p class="muted small">
+      If SwiftDownload is not reachable, the browser keeps downloading the file itself. Protected (DRM) and live streams
+      are never downloaded. YouTube videos are not supported: YouTube's terms do not allow downloading them.
+    </p>
+    <p class="credit">Created with <span class="heart" aria-label="love">♥</span> by <a href="https://webxoo.com" target="_blank" rel="noopener">Webxoo.com</a></p>
+    <script src="classify.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

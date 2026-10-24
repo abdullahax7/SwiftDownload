@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SwiftDownload</title>
+    <link rel="stylesheet" href="ui.css" />
+  </head>
+  <body class="popup">
+    <header><img src="icons/icon32.png" alt="" width="20" height="20" /> SwiftDownload</header>
+    <div id="status" class="status-bar" role="status">
+      <span class="dot"></span><span class="text" id="status-text">Checking connection…</span>
+      <button id="reconnect" type="button" hidden>Reconnect</button>
+    </div>
+    <label class="row"><input type="checkbox" id="intercept" /> Take over browser downloads</label>
+    <div id="notice" class="notice" hidden></div>
+    <div class="section-head"><span>On this page <span id="count" class="muted"></span></span></div>
+    <div class="chips" id="filters" role="group" aria-label="Show"></div>
+    <div class="list" id="list" aria-live="polite"></div>
+    <footer>
+      <button id="options" type="button" class="secondary">Options</button>
+      <span class="muted small" id="site"></span>
+    </footer>
+    <p class="credit">Created with <span class="heart" aria-label="love">♥</span> by <a href="https://webxoo.com" target="_blank" rel="noopener">Webxoo.com</a></p>
+    <script src="classify.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
