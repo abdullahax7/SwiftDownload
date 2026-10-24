@@ -4,11 +4,11 @@
 
 **A fast, segmented, resumable download manager for Windows, with a browser extension that finds the videos, audio and files on the pages you visit.**
 
-[![Download installer](https://img.shields.io/badge/Download-Windows%20installer-2563eb?style=for-the-badge&logo=windows)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.2_x64-setup.exe)
-[![Portable](https://img.shields.io/badge/Portable-zip-475569?style=for-the-badge)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.2-portable.zip)
+[![Download installer](https://img.shields.io/badge/Download-Windows%20installer-2563eb?style=for-the-badge&logo=windows)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.3_x64-setup.exe)
+[![Portable](https://img.shields.io/badge/Portable-zip-475569?style=for-the-badge)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.3-portable.zip)
 [![Extension](https://img.shields.io/badge/Extension-Chrome%20%7C%20Edge%20%7C%20Brave%20%7C%20Firefox-16a34a?style=for-the-badge)](extension)
 
-Version 1.2.2 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](https://webxoo.com)
+Version 1.2.3 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](https://webxoo.com)
 
 ![SwiftDownload](docs/screenshots/app.png)
 
@@ -54,8 +54,8 @@ Version 1.2.2 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 
 | File | What it is | SHA-256 |
 | --- | --- | --- |
-| [`SwiftDownload_1.2.2_x64-setup.exe`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.2_x64-setup.exe) | Installer (per user, no admin rights needed) | `4b8c1dfefb1120376865a5e9e662a1d3e8a21fa899192bde6fa2ff8cf4f66a3a` |
-| [`SwiftDownload-1.2.2-portable.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.2-portable.zip) | Portable version: unzip and run | `f9d12a47813299817e1bc88fc41aa6d3d2ad0f9a99859b6eb3c3a598770535d8` |
+| [`SwiftDownload_1.2.3_x64-setup.exe`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.3_x64-setup.exe) | Installer (per user, no admin rights needed) | `be263a9f39c0d35306d87fefdbfb88f2008cc8eb7d514a9011e7abd0ff415892` |
+| [`SwiftDownload-1.2.3-portable.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.3-portable.zip) | Portable version: unzip and run | `daf96144f0f6ae3028de5604aa1788ff29705978310a2ec4be5d729425a32dfb` |
 | [`extension/`](extension) | Browser extension (also included in both downloads) | |
 
 > The program isn't code-signed yet, so Windows SmartScreen may show "Windows protected your PC". Click **More info → Run anyway**. You can check the SHA-256 values above with `Get-FileHash <file>` in PowerShell.
@@ -65,9 +65,9 @@ Version 1.2.2 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 ## Installation
 
 ### 1. Install the app
-Run `SwiftDownload_1.2.2_x64-setup.exe` and start SwiftDownload. It connects itself to Chrome, Edge, Brave, Chromium and Firefox for your Windows user.
+Run `SwiftDownload_1.2.3_x64-setup.exe` and start SwiftDownload. It connects itself to Chrome, Edge, Brave, Chromium and Firefox for your Windows user.
 
-Portable: unzip `SwiftDownload-1.2.2-portable.zip`, keep the files together, and run `SwiftDownload.exe`.
+Portable: unzip `SwiftDownload-1.2.3-portable.zip`, keep the files together, and run `SwiftDownload.exe`.
 
 ### 2. Install the browser extension
 The easiest way: in SwiftDownload, open **Options → Browser → Install in Google Chrome** (or Edge, Brave or Firefox). The browser's extensions page opens and the folder path is copied for you.
@@ -85,7 +85,7 @@ The easiest way: in SwiftDownload, open **Options → Browser → Install in Goo
 *Firefox removes temporary add-ons when it closes. A permanent install needs a Mozilla-signed version.*
 
 ### 3. Check the connection
-Click the SwiftDownload icon in the browser toolbar. It should say **Connected to SwiftDownload 1.2.2**.
+Click the SwiftDownload icon in the browser toolbar. It should say **Connected to SwiftDownload 1.2.3**.
 
 ### Updates
 From version 1.2.0 on, SwiftDownload keeps itself up to date: it checks this repository at startup and every 6 hours and installs new versions automatically. **Updates are required**: until the new version is installed the app can't be used, and running downloads pause and continue after the restart. If you have 1.1.0 or older, install the latest version once by hand; after that it updates itself.

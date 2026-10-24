@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SwiftDownload",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Downloads files, media, HLS/DASH streams and magnet links with the SwiftDownload desktop download manager.",
   "browser_specific_settings": {
     "gecko": {

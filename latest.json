@@ -1,12 +1,12 @@
 {
-  "version": "1.2.2",
-  "notes": "Downloads started from the Media page now open the download list, selected and scrolled into view, so you can see their progress.\nNew downloads that arrive while the Media page is open are shown the same way.",
-  "pub_date": "2026-10-24T18:52:50Z",
+  "version": "1.2.3",
+  "notes": "Media downloads now show size, quality and format in detail: resolution, frame rate, video and audio codecs, audio channels, bitrate, the file type it will be saved as, and a table of every available format.",
+  "pub_date": "2026-10-24T21:31:14Z",
   "mandatory": true,
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWEFFOWRHRWdtRXhaVUsvbW81aGIvSzA1QmlmcWdzU256aHVkOWtrY3RaYWNuMGx4M3EwK21IMVNKb3pkQkNFMElkVUh6M3FUc1N6M1R1RG5weVVNYldlVFJ5N0dEVGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY3NzE2CWZpbGU6U3dpZnREb3dubG9hZF8xLjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjIKeFBFWWd2ZFJVWmR5L1haTjdHRm5Ha0hBWFJTUHl3dk5xVjAxbU9yY2h4L0NmVjdTTW5kSkJNT1hQU0VIVkFxUU4vZGZQVXo5cXA1a1FORnlSQmoxRHc9PQo=",
-      "url": "https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWEFFOWRHRWdtRXlPTFdOZ2w5ZWEwN1hXNmJoVjFMb3FwTFFIOHliWlpGK2x5KzNOR3dOYmhtN1lEZlBCK2Y0SlUvUGg2TlAxWXNKUklTWmlpRU9ORFlIRzV3d29NdXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODc3NDU2CWZpbGU6U3dpZnREb3dubG9hZF8xLjIuM194NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjMKNHhlZE9janBhdGYvemFtZnlKSE9VQTR1MEF3cGpTdjdiUHk2TS8yTWFDajlPb0dDTFV6Ym54Ums5NHA2S2lkMU4yMGdUUXlpSjN6R1R3Z0VFTDJGQlE9PQo=",
+      "url": "https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.3_x64-setup.exe"
     }
   }
 }

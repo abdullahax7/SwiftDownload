@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.3
+
+- Media downloads now show size, quality and format in detail: resolution, frame rate, video and audio codecs, audio channels, bitrate, the file type it will be saved as, and a table of every available format.
+
 ## 1.2.2
 
 - Downloads started from the Media page now open the download list, selected and scrolled into view, so you can see their progress.
