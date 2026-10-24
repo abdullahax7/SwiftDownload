@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0
+
+- Automatic updates: SwiftDownload now updates itself from GitHub (signed and verified).
+- Toolbar fits the window; the filter and search box are no longer cut off.
+- Extension pages are readable in dark mode.
+- Credit line: Created with love by Webxoo.com.
+
 ## 1.1.0
 
 **New: browser media detection**

@@ -4,11 +4,11 @@
 
 **A fast, segmented, resumable download manager for Windows, with a browser extension that finds the videos, audio and files on the pages you visit.**
 
-[![Download installer](https://img.shields.io/badge/Download-Windows%20installer-2563eb?style=for-the-badge&logo=windows)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.1.0_x64-setup.exe)
-[![Portable](https://img.shields.io/badge/Portable-zip-475569?style=for-the-badge)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.1.0-portable.zip)
+[![Download installer](https://img.shields.io/badge/Download-Windows%20installer-2563eb?style=for-the-badge&logo=windows)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.0_x64-setup.exe)
+[![Portable](https://img.shields.io/badge/Portable-zip-475569?style=for-the-badge)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.0-portable.zip)
 [![Extension](https://img.shields.io/badge/Extension-Chrome%20%7C%20Edge%20%7C%20Brave%20%7C%20Firefox-16a34a?style=for-the-badge)](extension)
 
-Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](https://webxoo.com)
+Version 1.2.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](https://webxoo.com)
 
 ![SwiftDownload](docs/screenshots/app.png)
 
@@ -23,6 +23,7 @@ Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 - Duplicate detection, automatic categories and folders, an optional SHA-256 check, and custom headers.
 - **Torrents and magnet links**, with file selection: paste a magnet link, open a `.torrent` file, or just click a magnet link in your browser.
 - **HLS (`.m3u8`) and MPEG-DASH (`.mpd`) streams**: choose the quality and audio track. Segments download in parallel and resume after pauses and restarts.
+- **Automatic updates**: new versions published here install themselves. Every update is verified with the release signature before it is installed.
 
 **Browser extension** (Chrome, Edge, Brave and other Chromium browsers, plus Firefox)
 - Takes over browser downloads, all files or only the types you choose, and opens magnet links in SwiftDownload.
@@ -53,8 +54,8 @@ Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 
 | File | What it is | SHA-256 |
 | --- | --- | --- |
-| [`SwiftDownload_1.1.0_x64-setup.exe`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.1.0_x64-setup.exe) | Installer (per user, no admin rights needed) | `37f8906b88637cf2d3d7745e808bc48733fdb7bc7d3565074a65ee5caca99079` |
-| [`SwiftDownload-1.1.0-portable.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.1.0-portable.zip) | Portable version: unzip and run | `7a087c7e976f4810373e8d9a71748de2a219053c4f37cc43db3e7f804991068e` |
+| [`SwiftDownload_1.2.0_x64-setup.exe`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.0_x64-setup.exe) | Installer (per user, no admin rights needed) | `ae6d2e04626c3d8a731482fbf755afa29a1825b1b55920f101ffa74b951e9a4d` |
+| [`SwiftDownload-1.2.0-portable.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.0-portable.zip) | Portable version: unzip and run | `c857a4c02a2b50a2e563bf06c563c2951b8506e4fc1a2f43c1fd64b22b67620f` |
 | [`extension/`](extension) | Browser extension (also included in both downloads) | |
 
 > The program isn't code-signed yet, so Windows SmartScreen may show "Windows protected your PC". Click **More info → Run anyway**. You can check the SHA-256 values above with `Get-FileHash <file>` in PowerShell.
@@ -64,9 +65,9 @@ Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 ## Installation
 
 ### 1. Install the app
-Run `SwiftDownload_1.1.0_x64-setup.exe` and start SwiftDownload. It connects itself to Chrome, Edge, Brave, Chromium and Firefox for your Windows user.
+Run `SwiftDownload_1.2.0_x64-setup.exe` and start SwiftDownload. It connects itself to Chrome, Edge, Brave, Chromium and Firefox for your Windows user.
 
-Portable: unzip `SwiftDownload-1.1.0-portable.zip`, keep the files together, and run `SwiftDownload.exe`.
+Portable: unzip `SwiftDownload-1.2.0-portable.zip`, keep the files together, and run `SwiftDownload.exe`.
 
 ### 2. Install the browser extension
 The easiest way: in SwiftDownload, open **Options → Browser → Install in Google Chrome** (or Edge, Brave or Firefox). The browser's extensions page opens and the folder path is copied for you.
@@ -84,7 +85,10 @@ The easiest way: in SwiftDownload, open **Options → Browser → Install in Goo
 *Firefox removes temporary add-ons when it closes. A permanent install needs a Mozilla-signed version.*
 
 ### 3. Check the connection
-Click the SwiftDownload icon in the browser toolbar. It should say **Connected to SwiftDownload 1.1.0**.
+Click the SwiftDownload icon in the browser toolbar. It should say **Connected to SwiftDownload 1.2.0**.
+
+### Updates
+From version 1.2.0 on, SwiftDownload keeps itself up to date: it checks this repository at startup and every 6 hours, and installs new versions automatically (running downloads pause and continue after the restart). If you have 1.1.0 or older, install the latest version once by hand; after that it updates itself.
 
 ## Using it
 
@@ -144,7 +148,7 @@ When reporting a bug, please include:
 - the page or link (if you can share it) and any error message;
 - a diagnostic report, if possible: **Options → Storage → Diagnostic report → Export…**. Passwords, cookies, sign-in headers and link details are removed automatically.
 
-## What's new in 1.1.0
+## What's new
 See [CHANGELOG.md](CHANGELOG.md).
 
 ---

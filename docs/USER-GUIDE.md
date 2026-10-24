@@ -15,7 +15,8 @@ Everything SwiftDownload can do, step by step. New here? Start with [Installatio
 10. [Media detector in the app](#10-media-detector-in-the-app)
 11. [Options overview](#11-options-overview)
 12. [Keyboard shortcuts](#12-keyboard-shortcuts)
-13. [Help and contact](#13-help-and-contact)
+13. [Automatic updates](#13-automatic-updates)
+14. [Help and contact](#14-help-and-contact)
 
 ---
 
@@ -201,7 +202,20 @@ Click **Media** in the toolbar to see everything the extension found while you b
 | Esc | Clear the selection |
 | Ctrl+Q | Exit SwiftDownload |
 
-## 13. Help and contact
+## 13. Automatic updates
+
+SwiftDownload updates itself from this GitHub repository (version 1.2.0 and newer):
+
+- It checks at startup and every 6 hours.
+- When a new version is published, a window shows the new version and its notes. The update downloads, is **verified with the release signature** (an update that was tampered with is rejected), and installs by itself after a short countdown. You can also click **Restart and update now**.
+- Downloads that are running pause and **continue after the restart**.
+- If the update can't be downloaded (for example, no internet), you can choose **Continue for now**; it is tried again later.
+
+![Update required](screenshots/update-required.png)
+
+The current status is in **Options → Updates**.
+
+## 14. Help and contact
 
 Found a bug, need help, or want an update? Email **[contact@webxoo.com](mailto:contact@webxoo.com)**.
 Please attach a diagnostic report: **Options → Storage & history → Diagnostic report → Export…**. Passwords, cookies, sign-in headers and link details are removed automatically.

@@ -1,0 +1,12 @@
+{
+  "version": "1.2.0",
+  "notes": "Automatic updates: SwiftDownload now updates itself from GitHub (signed and verified).\nToolbar fits the window; the filter and search box are no longer cut off.\nExtension pages are readable in dark mode.\nCredit line: Created with love by Webxoo.com.",
+  "pub_date": "2026-10-24T18:15:52Z",
+  "mandatory": true,
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWEFFOWRHRWdtRTNNcG9NaFFWaGp2Z2V1VHhucGplYWk3Qi9iL1hPWjlRK2lKak0wUSszYnB2SUVMOGs1Z2w0cThUNjIrK2s0amdJbWFJWmxObk5xa2dBclZRZnRyNGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY1NTIwCWZpbGU6U3dpZnREb3dubG9hZF8xLjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjAKcHZKY1FjY2kwdStCNGRVbXFBV05ZVE5ybnMwa1hhNVNUWjZlVG5OMjhKVnJVZmk0Y1E1R0NSN3RGSm4veVBjczdEZHhTRHVRMHE0b2M3R2NKWE9rRGc9PQo=",
+      "url": "https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.0_x64-setup.exe"
+    }
+  }
+}
