@@ -21,7 +21,7 @@ Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 - Download queue with simultaneous-download limits, a scheduler (start/stop times and days), and an optional shutdown when everything is done.
 - Global and per-download speed limits, automatic retries, and resume when the internet comes back.
 - Duplicate detection, automatic categories and folders, an optional SHA-256 check, and custom headers.
-- **Torrents and magnet links**, with file selection.
+- **Torrents and magnet links**, with file selection: paste a magnet link, open a `.torrent` file, or just click a magnet link in your browser.
 - **HLS (`.m3u8`) and MPEG-DASH (`.mpd`) streams**: choose the quality and audio track. Segments download in parallel and resume after pauses and restarts.
 
 **Browser extension** (Chrome, Edge, Brave and other Chromium browsers, plus Firefox)
@@ -42,6 +42,12 @@ Version 1.1.0 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 | Extension popup | Player download button |
 | --- | --- |
 | ![Extension popup](docs/screenshots/extension-popup.png) | ![Player button](docs/screenshots/player-button.png) |
+
+## Documentation
+
+- **[User guide (with pictures)](docs/USER-GUIDE.md)**: adding downloads, torrents and magnet links, queue and scheduler, the browser extension, streams, the media detector, options and shortcuts.
+- **[Browser integration](docs/browser-integration.md)**: permissions, privacy, Native Messaging, troubleshooting.
+- **[Changelog](CHANGELOG.md)**
 
 ## Download
 
