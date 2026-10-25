@@ -6,7 +6,7 @@
 
 [![Download installer](https://img.shields.io/badge/Download-Windows%20installer-2563eb?style=for-the-badge&logo=windows)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.3_x64-setup.exe)
 [![Portable](https://img.shields.io/badge/Portable-zip-475569?style=for-the-badge)](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.3-portable.zip)
-[![Extension](https://img.shields.io/badge/Extension-Chrome%20%7C%20Edge%20%7C%20Brave%20%7C%20Firefox-16a34a?style=for-the-badge)](extension)
+[![Extension](https://img.shields.io/badge/Extension-Chrome%20%7C%20Edge%20%7C%20Brave%20%7C%20Firefox-16a34a?style=for-the-badge)](#download)
 
 Version 1.2.3 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](https://webxoo.com)
 
@@ -56,7 +56,8 @@ Version 1.2.3 · Windows 10/11 (64-bit) · Created with ❤️ by [Webxoo.com](h
 | --- | --- | --- |
 | [`SwiftDownload_1.2.3_x64-setup.exe`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload_1.2.3_x64-setup.exe) | Installer (per user, no admin rights needed) | `be263a9f39c0d35306d87fefdbfb88f2008cc8eb7d514a9011e7abd0ff415892` |
 | [`SwiftDownload-1.2.3-portable.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-1.2.3-portable.zip) | Portable version: unzip and run | `daf96144f0f6ae3028de5604aa1788ff29705978310a2ec4be5d729425a32dfb` |
-| [`extension/`](extension) | Browser extension (also included in both downloads) | |
+| [`SwiftDownload-extension-chrome-edge.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-extension-chrome-edge.zip) | Browser extension for Chrome, Edge, Brave and other Chromium browsers (also included in both downloads) | `19147c343a1a5bcfa9fc9314a4ac8cc6e512cca2adc47b09c748667b41f06341` |
+| [`SwiftDownload-extension-firefox.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-extension-firefox.zip) | Browser extension for Firefox 128+ (also included in both downloads) | `8192391cadeb72372913e0656bb7ab5b36601b1f49d91270aea7b0b57602004f` |
 
 > The program isn't code-signed yet, so Windows SmartScreen may show "Windows protected your PC". Click **More info → Run anyway**. You can check the SHA-256 values above with `Get-FileHash <file>` in PowerShell.
 
@@ -75,11 +76,11 @@ The easiest way: in SwiftDownload, open **Options → Browser → Install in Goo
 **Chrome / Edge / Brave (manually)**
 1. Open `chrome://extensions` (Edge: `edge://extensions`, Brave: `brave://extensions`).
 2. Turn on **Developer mode**.
-3. Click **Load unpacked** and choose the `chrome-edge` folder: [`extension/chrome-edge`](extension/chrome-edge) from this repository, or `browser-extension\chromium` in the SwiftDownload installation or portable folder.
+3. Download and unzip [`SwiftDownload-extension-chrome-edge.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-extension-chrome-edge.zip), click **Load unpacked** and choose the unzipped folder (or `browser-extension\chromium` in the SwiftDownload installation or portable folder).
 
 **Firefox (128 or newer)**
 1. Open `about:debugging#/runtime/this-firefox`.
-2. Click **Load Temporary Add-on…** and choose `manifest.json` in the `firefox` folder.
+2. Click **Load Temporary Add-on…** and choose the downloaded [`SwiftDownload-extension-firefox.zip`](https://github.com/abdullahax7/SwiftDownload/raw/main/downloads/SwiftDownload-extension-firefox.zip) (no need to unzip it), or `manifest.json` in `browser-extension\firefox` in the SwiftDownload installation or portable folder.
 3. Click the SwiftDownload toolbar icon and **Allow access to websites** so it can detect media.
 
 *Firefox removes temporary add-ons when it closes. A permanent install needs a Mozilla-signed version.*

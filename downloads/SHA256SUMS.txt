@@ -1,2 +1,4 @@
 be263a9f39c0d35306d87fefdbfb88f2008cc8eb7d514a9011e7abd0ff415892 *SwiftDownload_1.2.3_x64-setup.exe
 daf96144f0f6ae3028de5604aa1788ff29705978310a2ec4be5d729425a32dfb *SwiftDownload-1.2.3-portable.zip
+19147c343a1a5bcfa9fc9314a4ac8cc6e512cca2adc47b09c748667b41f06341 *SwiftDownload-extension-chrome-edge.zip
+8192391cadeb72372913e0656bb7ab5b36601b1f49d91270aea7b0b57602004f *SwiftDownload-extension-firefox.zip
